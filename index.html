@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Spotify</title>
+      <link rel="stylesheet" href="style.css" />
+   </head>
+   <body>
+      <div class="container">
+         <header>
+            <img
+               src="images/yvette-de-wit-NYrVisodQ2M-unsplash.jpg"
+               alt="playbutton" />
+            <div class="overlay"></div>
+            <div class="banner-content">
+               <h1>Playlist</h1>
+               <p>
+                  Browse out library of songs and play them directly in the app
+               </p>
+            </div>
+         </header>
+         <main>
+            <div class="search-box">
+               <input
+                  id="search-input"
+                  type="text"
+                  placeholder="Search a song.." />
+            </div>
+            <div class="playlist">
+               <!-- <div id="song" class="song-1">
+                  <p class="song-order">1</p>
+                  <img
+                     class="play-icon"
+                     src="images/3669295_ic_white_filled_play_circle_icon.png"
+                     alt="" />
+                  <p class="song-details">
+                     Sunna Daydreams <span class="artist">Danny Shields</span>
+                  </p>
+               </div>
+               <div id="song" class="song-2">
+                  <p class="song-order">2</p>
+                  <img
+                     class="play-icon"
+                     src="images/3669295_ic_white_filled_play_circle_icon.png"
+                     alt="" />
+                  <p class="song-details">
+                     Cozee rooftop <span class="artist">Jozeque</span>
+                  </p>
+               </div>
+               <div id="song" class="song-3">
+                  <p class="song-order">3</p>
+                  <img
+                     class="play-icon"
+                     src="images/3669295_ic_white_filled_play_circle_icon.png"
+                     alt="" />
+                  <p class="song-details">
+                     Juvenile <span class="artist">Make me speak</span>
+                  </p>
+               </div>
+               <div id="song" class="song-4">
+                  <p class="song-order">4</p>
+                  <img
+                     class="play-icon"
+                     src="images/3669295_ic_white_filled_play_circle_icon.png"
+                     alt="" />
+                  <p class="song-details">
+                     Chatter <span class="artist">NAEMS</span>
+                  </p>
+               </div>
+               <div id="song" class="song-5">
+                  <p class="song-order">5</p>
+                  <img
+                     class="play-icon"
+                     src="images/3669295_ic_white_filled_play_circle_icon.png"
+                     alt="" />
+                  <p class="song-details">
+                     Dependet<span class="artist">Tomer Ben Ari</span>
+                  </p>
+               </div> -->
+            </div>
+         </main>
+      </div>
+
+      <footer id="player">
+         <div class="player-controls">
+            <button class="previous-btn">
+               <img
+                  class="previous-btn-img"
+                  src="images/icons8-previous-button-50.png"
+                  alt="" />
+            </button>
+            <button class="player-play-btn" data-playing="false">
+               <div class="player-icon-play">
+                  <img
+                     src="images/3669295_ic_white_filled_play_circle_icon.png"
+                     alt="" />
+               </div>
+               <div class="player-icon-pause hidden">
+                  <img src="images/icons8-pause-button-50.png" alt="" />
+               </div>
+            </button>
+            <button class="next-btn">
+               <img
+                  class="next-btn-img"
+                  src="images/icons8-next-30.png"
+                  alt="" />
+            </button>
+            <div class="song-Playing-Info"></div>
+            <div class="player-timeline">
+               <span class="player-time player-time-current">0:0</span>
+               <div class="player-progress">
+                  <div class="player-progress-filled"></div>
+               </div>
+               <span class="player-time player-time-duration">0:0</span>
+            </div>
+         </div>
+         <audio>Your browser dosent support the audioelement</audio>
+      </footer>
+      <script src="main.js"></script>
+   </body>
+</html>
